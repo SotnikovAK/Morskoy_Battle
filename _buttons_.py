@@ -2,7 +2,7 @@ import json
 
 
 Name_files_buttons = ['menu_buttons.json', 'question_about_gamemode_buttons.json', 'set_ships_buttons.json', 'question_quit_buttons.json',
-                      'screen_of_first-second_player.json', 'screen_of_first-second_player.json', 'field_of_attack_player_buttons.json', 'field_of_defender_player_buttons.json']
+                      'screen_of_first-second_player.json', 'screen_of_first-second_player.json', 'field_of_attack_player_buttons.json', 'field_of_defender_player_buttons.json','final_screen_buttons.json']
 
 p = len(Name_files_buttons)
 button_pushed_image = [0] * p
