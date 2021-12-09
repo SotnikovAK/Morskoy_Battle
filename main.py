@@ -311,15 +311,12 @@ while not finished:
                 flag_quit, screen_id, ship_choice, gamemode = operator_on_screen(
                     screen_id,gamemode,event)
                 flag_init_ships = True
-                if (flag_fill == True and ship_choice > 0):
-                    ship_choice = 0
-
             else:
-                if (flag_init_ships == True and ship_choice > 0 and flag_fill == False):
+                if (flag_init_ships == True and ship_choice > 0 ):
                     flag_init_ships = False
                     add._init_ship(ship_choice - 1)
 
-                elif (ship_choice > 0 and flag_fill == False):
+                elif (ship_choice > 0 ):
                     ship_choice = add.operator_on_ships_button(
                         ship_choice - 1, event, player)
 
@@ -327,14 +324,12 @@ while not finished:
 
                     add.clear_battlefield(player)
                     ship_choice = 0
-                    flag_fill = False
 
                 elif (ship_choice == -1):
 
                     add.clear_battlefield(player)
                     add.auto_set_ship(player)
                     ship_choice = 0
-                    flag_fill = True
 
                 elif (ship_choice == -3):
 
@@ -350,8 +345,6 @@ while not finished:
 
                         player += 1
                         add.clear_battlefield(player)
-                        ship_choice = 0
-                        flag_fill == False
 
                     elif (add.continue_button(player) and gamemode == 1 and player == 1):
 
