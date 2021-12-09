@@ -30,6 +30,10 @@
     {
         "name": "FIELD_OF_DEFEND_PLAYER",
         "image": "images_static_battleground/field_of_defend_player.png"
+    },
+    {
+        "name": "Final_game_screen",
+        "image":"images_static_battleground/final_game_screen.png"
     }
     
 ]
