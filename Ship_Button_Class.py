@@ -16,9 +16,10 @@ class Ship_Buttons:
         self.angle_flag = 0
         self.angle = 0
 
-    def examination_of_button(self, event, _ship):
+    def examination_of_button(self, event, _ship,B):
         A = [(-2, 0), (-1, 0), (-1, 0), (0, 0)]
-        X, Y = event.pos[0]-x0 + delta, event.pos[1] - x0 + delta
+        x0,y0 = B[0],B[1]
+        X, Y = event.pos[0]- x0 + delta, event.pos[1] - y0 + delta
         a, b = X//delta, Y//delta
         c = -1
         if self.angle_flag == 0:
