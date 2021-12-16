@@ -1,0 +1,55 @@
+[
+    {
+        "name": "MENU",
+        "image": "images_static_battleground/menu_game.png"
+    },
+    {
+        "name": "QUESTION ABOUT GAMEMODE",
+        "image": "images_static_battleground/question_about_gamemode.png"
+    },
+    {
+        "name": "SELECTION OF SHIPS",
+        "image": "images_static_battleground/selection_of_ships.png"
+    },
+    {
+        "name": "QUESTION ABOUT GAME",
+        "image": "images_static_battleground/question_quit.png"
+    },
+    {
+        "name": "MOVE_OF_FIRST_PLAYER",
+        "image": "images_static_battleground/move_of_first_player.png"
+    },
+    {
+        "name": "MOVE_OF_SECOND_PLAYER",
+        "image": "images_static_battleground/move_of_second_player.png"
+    },
+    {
+        "name": "FIELD_OF_ATTACK PLAYER",
+        "image": "images_static_battleground/field_of_attack_player.png"
+    },
+    {
+        "name": "FIELD_OF_DEFEND_PLAYER",
+        "image": "images_static_battleground/field_of_defend_player.png"
+    },
+    {
+        "name": "Final_game_screen",
+        "image":"images_static_battleground/final_game_screen.png"
+    },
+    {
+        "name": "Human_screen",
+        "image":"images_static_battleground/move_human_player.png"
+    },
+    {
+        "name": "Oscar_screen",
+        "image":"images_static_battleground/move_of_oscar.png"
+    },
+    {
+        "name": "FIELD_OF_ATTACK PLAYER",
+        "image": "images_static_battleground/field_of_attack_player.png"
+    },
+    {
+        "name": "FIELD_OF_DEFEND_PLAYER",
+        "image": "images_static_battleground/field_of_defend_player.png"
+    }
+
+]
