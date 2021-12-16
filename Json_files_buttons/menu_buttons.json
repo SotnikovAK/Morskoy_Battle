@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Button to exit",
+        "pushed": "images_buttons/exit_pushed_button.png",
+        "unpushed": "images_buttons/exit_unpushed_button.png",
+        "coords": [[902, 105], [100, -100]],
+        "post_effect": [1, 0, 0],
+        "gamemode": -1
+    },
+    {
+        "name": "Play the game button",
+        "pushed": "images_buttons/button_pushed_play.png",
+        "unpushed": "images_buttons/button_unpushed_play.png",
+        "coords": [[432, 522], [137, -143]], 
+        "post_effect": [0, 1, 0],
+        "gamemode": -1
+    },
+    {
+        "name": "Settings",
+        "pushed": "images_buttons/button_pushed_settings.png",
+        "unpushed": "images_buttons/button_unpushed_settings.png",
+        "coords": [[902, 205], [100, -100]],
+        "post_effect": [0, 8, 0],
+        "gamemode": -1
+    }
+]

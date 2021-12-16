@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Button to exit",
+        "pushed": "images_buttons/exit_pushed_button.png",
+        "unpushed": "images_buttons/exit_unpushed_button.png",
+        "coords": [[902, 105], [100, -100]],
+        "post_effect": [0, 3, 0],
+        "gamemode": -1
+    },
+    {
+        "name": "Continue button",
+        "pushed": "images_buttons/button_pushed_continue.png",
+        "unpushed": "images_buttons/button_unpushed_continue.png",
+        "coords": [[350, 800], [300, -50]],
+        "post_effect": [0, 5, 0],
+        "gamemode": -1
+    }
+
+]

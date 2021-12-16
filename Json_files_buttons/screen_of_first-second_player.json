@@ -1,0 +1,10 @@
+[
+    {
+        "name": "Continue button",
+        "pushed": "images_buttons/button_pushed_continue.png",
+        "unpushed": "images_buttons/button_unpushed_continue.png",
+        "coords": [[350, 800], [300, -50]],
+        "post_effect": [0, 7, 0],
+        "gamemode": -1
+    }
+]

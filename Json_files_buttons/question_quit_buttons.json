@@ -1,0 +1,26 @@
+[
+    {
+        "name": "return in game",
+        "pushed": "images_buttons/return_in_game_pushed_button.png",
+        "unpushed": "images_buttons/return_in_game_unpushed_button.png",
+        "coords": [[229, 477], [543, -63]],
+        "post_effect": [0, -10, 0],
+        "gamemode": -1
+    },
+    {
+        "name": "return in menu",
+        "pushed": "images_buttons/return_in_the_menu_pushed_button.png",
+        "unpushed": "images_buttons/return_in_the_menu_unpushed_button.png",
+        "coords": [[229, 544], [544, -62]], 
+        "post_effect": [0, 0, 0],
+        "gamemode": -1
+    },
+    {
+        "name": "Return to real life",
+        "pushed": "images_buttons/return_in_quit_pushed_button.png",
+        "unpushed": "images_buttons/return_in_quit_unpushed_button.png",
+        "coords": [[229, 610], [544, -62]],
+        "post_effect": [1, 0, 0],
+        "gamemode": -1
+    }
+]
