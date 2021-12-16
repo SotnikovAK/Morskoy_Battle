@@ -1,8 +1,9 @@
 import json
 
 
-Name_files_buttons = ['menu_buttons.json', 'question_about_gamemode_buttons.json', 'set_ships_buttons.json', 'question_quit_buttons.json',
-                      'screen_of_first-second_player.json', 'screen_of_first-second_player.json', 'field_of_attack_player_buttons.json', 'field_of_defender_player_buttons.json','final_screen_buttons.json']
+Name_files_buttons = ['Json_files_buttons/menu_buttons.json', 'Json_files_buttons/question_about_gamemode_buttons.json', 'Json_files_buttons/set_ships_buttons.json', 'Json_files_buttons/question_quit_buttons.json',
+                      'Json_files_buttons/screen_of_first-second_player.json', 'Json_files_buttons/screen_of_first-second_player.json', 'Json_files_buttons/field_of_attack_player_buttons.json', 'Json_files_buttons/field_of_defender_player_buttons.json','Json_files_buttons/final_screen_buttons.json','Json_files_buttons/human_buttons.json',
+                      'Json_files_buttons/oscar_move_buttons.json','Json_files_buttons/field_of_player_attack_buttons.json','Json_files_buttons/field_of_ai_attack_buttons.json']
 
 p = len(Name_files_buttons)
 button_pushed_image = [0] * p
@@ -31,3 +32,4 @@ for name_file in Name_files_buttons:
     post_pressing_effect[k] = d
     Gamemode[k] = e
     k += 1
+
