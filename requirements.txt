@@ -1,0 +1,2 @@
+requirements:
+ 1. Python 3 with installed pygame
