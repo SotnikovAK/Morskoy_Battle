@@ -25,7 +25,7 @@
  #     controller.py
  #     init_screen.py
  #     main.py
-# h1 3. Run and enjoy
+#    3. Check Guide.txt for tutorial. Run and enjoy
 # Привет! Сейчас Вы находитесь на странице нашего проекта "Морской бой". Мы сделали этот проект с использованием Python.
 # Вот инструкции по установке:
 #  1. Прочитайте requirements.txt
@@ -52,7 +52,7 @@
  #     controller.py
  #     init_screen.py
  #     main.py
-# 3. Запускайте и получайте удовольствие
+# 3. Тьюториал можно найти в Guide.txt Запускайте и получайте удовольствие
 
 
     
