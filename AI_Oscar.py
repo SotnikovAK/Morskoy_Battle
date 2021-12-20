@@ -55,9 +55,9 @@ class AiSam:
         """
         x, y = rd.choice(self.not_destroyed_cells_in_battlefield)
         self.not_destroyed_cells_in_battlefield, self.old_number_not_destroyed_cells, self.coordinates_in_process[0], \
-        self.coordinates_in_process[1] = shot(self.not_destroyed_cells_in_battlefield,
-                                              self.old_number_not_destroyed_cells, (x, y))
-        print(x, y)
+            self.coordinates_in_process[1] = shot(self.not_destroyed_cells_in_battlefield,
+                                                  self.old_number_not_destroyed_cells, (x, y))
+        print('1_type_attack', x, y)
         return x, y
 
     def second_type_of_attack(self):
@@ -80,9 +80,14 @@ class AiSam:
         x, y = rd.choice(candidate_for_destruction)
         self.not_destroyed_cells_in_battlefield, self.old_number_not_destroyed_cells, self.x, self.y = shot(
             self.not_destroyed_cells_in_battlefield, self.old_number_not_destroyed_cells, (x, y))
+        print('2_type_attack', candidate_for_destruction)
+
         return x, y
 
     def third_type_of_attack(self):
+        """
+        finishing off ships
+        """
         direction = [(-1, 0), (1, 0)]
         candidate_for_destruction = function_election_candidate_for_shot(self.not_destroyed_cells_in_battlefield,
                                                                          direction, self.coordinates_in_process,
@@ -97,10 +102,21 @@ class AiSam:
             candidate_for_destruction = function_election_candidate_for_shot(self.not_destroyed_cells_in_battlefield,
                                                                              direction, self.coordinates_in_process,
                                                                              self.flag_angle)
-            x, y = rd.choice(candidate_for_destruction)
-            self.not_destroyed_cells_in_battlefield, self.old_number_not_destroyed_cells, self.x, self.y = shot(
-                self.not_destroyed_cells_in_battlefield, self.old_number_not_destroyed_cells, (x, y))
+            if len(candidate_for_destruction) != 0:
+                x, y = rd.choice(candidate_for_destruction)
+                self.not_destroyed_cells_in_battlefield, self.old_number_not_destroyed_cells, self.x, self.y = shot(
+                    self.not_destroyed_cells_in_battlefield, self.old_number_not_destroyed_cells, (x, y))
+            else:
+                direction = [(-3, 0), (3, 0)]
+                candidate_for_destruction = function_election_candidate_for_shot(
+                    self.not_destroyed_cells_in_battlefield,
+                    direction, self.coordinates_in_process,
+                    self.flag_angle)
+                x, y = rd.choice(candidate_for_destruction)
 
+                self.not_destroyed_cells_in_battlefield, self.old_number_not_destroyed_cells, self.x, self.y = shot(
+                    self.not_destroyed_cells_in_battlefield, self.old_number_not_destroyed_cells, (x, y))
+        print('3_type_attack', x, y)
         return x, y
 
     def diagonal_death_zone(self):
@@ -171,3 +187,4 @@ class AiSam:
 Admiral entered the game
 """
 AI = AiSam()
+
