@@ -1,0 +1,68 @@
+[
+    {
+        "name": "MENU",
+        "image": "images_static_battleground/menu_game.png",
+        "buttons": "Json_files/Json_files_buttons/menu_buttons.json"
+    },
+    {
+        "name": "QUESTION ABOUT GAME_MODE",
+        "image": "images_static_battleground/question_about_game_mode.png",
+        "buttons": "Json_files/Json_files_buttons/question_about_game_mode_buttons.json"
+    },
+    {
+        "name": "SELECTION OF SHIPS",
+        "image": "images_static_battleground/selection_of_ships.png",
+        "buttons": "Json_files/Json_files_buttons/set_ships_buttons.json"
+    },
+    {
+        "name": "QUESTION ABOUT GAME",
+        "image": "images_static_battleground/question_quit.png",
+        "buttons": "Json_files/Json_files_buttons/question_quit_buttons.json"
+    },
+    {
+        "name": "MOVE_OF_FIRST_PLAYER",
+        "image": "images_static_battleground/move_of_first_player.png",
+        "buttons": "Json_files/Json_files_buttons/screen_of_first-second_player.json"
+    },
+    {
+        "name": "MOVE_OF_SECOND_PLAYER",
+        "image": "images_static_battleground/move_of_second_player.png",
+        "buttons": "Json_files/Json_files_buttons/screen_of_first-second_player.json"
+    },
+    {
+        "name": "FIELD_OF_ATTACK PLAYER",
+        "image": "images_static_battleground/field_of_attack_player.png",
+        "buttons": "Json_files/Json_files_buttons/field_of_attack_player_buttons.json"
+    },
+    {
+        "name": "FIELD_OF_DEFEND_PLAYER",
+        "image": "images_static_battleground/field_of_defend_player.png",
+        "buttons": "Json_files/Json_files_buttons/field_of_defender_player_buttons.json"
+    },
+    {
+        "name": "Final_game_screen",
+        "image":"images_static_battleground/final_game_screen.png",
+        "buttons": "Json_files/Json_files_buttons/final_screen_buttons.json"
+    },
+    {
+        "name": "Human_screen",
+        "image":"images_static_battleground/move_human_player.png",
+        "buttons": "Json_files/Json_files_buttons/human_buttons.json"
+    },
+    {
+        "name": "Oscar_screen",
+        "image":"images_static_battleground/move_of_oscar.png",
+        "buttons": "Json_files/Json_files_buttons/oscar_move_buttons.json"
+    },
+    {
+        "name": "FIELD_OF_ATTACK_HUMAN_PLAYER",
+        "image": "images_static_battleground/field_of_attack_player.png",
+        "buttons": "Json_files/Json_files_buttons/field_of_player_attack_buttons.json"
+    },
+    {
+        "name": "FIELD_OF_DEFEND_HUMAN_PLAYER",
+        "image": "images_static_battleground/field_of_defend_player.png",
+        "buttons": "Json_files/Json_files_buttons/field_of_ai_attack_buttons.json"
+    }
+
+]

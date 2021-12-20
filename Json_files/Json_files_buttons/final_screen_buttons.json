@@ -1,0 +1,10 @@
+[
+    {
+        "name": "Final_button",
+        "pushed": "images_buttons/pushed_final_button.png",
+        "unpushed": "images_buttons/unpushed_final_button.png",
+        "coordinates": [[249, 748], [500, -100]],
+        "post_effect": [0, 0, 0],
+        "game_mode": 0
+    }
+]

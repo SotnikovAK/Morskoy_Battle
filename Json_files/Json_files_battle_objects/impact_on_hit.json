@@ -1,0 +1,10 @@
+[
+    {
+        "name": "hitting the target",
+        "image": "images_of_battlefield/hit_on_ship.png"
+    },
+    {
+        "name": "hitting the empty place",
+        "image": "images_of_battlefield/hit_on_sea.png"
+    }
+]

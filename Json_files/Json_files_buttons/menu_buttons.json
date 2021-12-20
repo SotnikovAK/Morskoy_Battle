@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Button to exit",
+        "pushed": "images_buttons/exit_pushed_button.png",
+        "unpushed": "images_buttons/exit_unpushed_button.png",
+        "coordinates": [[902, 105], [100, -100]],
+        "post_effect": [1, 0, 0],
+        "game_mode": -1
+    },
+    {
+        "name": "Play the game button",
+        "pushed": "images_buttons/button_pushed_play.png",
+        "unpushed": "images_buttons/button_unpushed_play.png",
+        "coordinates": [[432, 522], [137, -143]],
+        "post_effect": [0, 1, 0],
+        "game_mode": -1
+    }
+]

@@ -1,0 +1,66 @@
+[
+    {
+        "name": "Tirpitz_button",
+        "pushed": "images_buttons/Tirpitz_pushed_button.png",
+        "unpushed": "images_buttons/Tirpitz.png",
+        "coordinates": [[720, 224], [200, -50]],
+        "post_effect": [0, 2, 1],
+        "game_mode": -1
+    },
+    {
+        "name": "Essex_button",
+        "pushed": "images_buttons/essex_pushed_button.png",
+        "unpushed": "images_buttons/essex.png",
+        "coordinates": [[720, 322], [150, -50]],
+        "post_effect": [0, 2, 2],
+        "game_mode": -1
+    },
+    {
+        "name": "Kirov_button",
+        "pushed": "images_buttons/kirov_pushed_button.png",
+        "unpushed": "images_buttons/kirov.png",
+        "coordinates": [[720, 421], [100, -50]],
+        "post_effect": [0, 2, 3],
+        "game_mode": -1
+    },
+    {
+        "name": "Destroyer_button",
+        "pushed": "images_buttons/destroyer_pushed_button.png",
+        "unpushed": "images_buttons/cringe_destroyer.png",
+        "coordinates": [[721, 520], [50, -50]],
+        "post_effect": [0, 2, 4],
+        "game_mode": -1
+    },
+    {
+        "name": "Exit Button",
+        "pushed": "images_buttons/exit_pushed_button.png",
+        "unpushed": "images_buttons/exit_unpushed_button.png",
+        "coordinates": [[900, 105], [100, -100]],
+        "post_effect": [0, 3, 0],
+        "game_mode": -1
+    },
+    {
+        "name": "Auto button",
+        "pushed": "images_buttons/button_pushed_auto.png",
+        "unpushed": "images_buttons/button_unpushed_auto.png",
+        "coordinates": [[845, 740], [150, -50]],
+        "post_effect": [0, 2, -1],
+        "game_mode": -1
+    },
+    {
+        "name": "Clear_button",
+        "pushed": "images_buttons/button_pushed_clear.png",
+        "unpushed": "images_buttons/button_unpushed_clear.png",
+        "coordinates": [[697, 740], [150, -50]],
+        "post_effect": [0, 2, -2],
+        "game_mode": -1
+    },
+    {
+        "name": "Continue_button",
+        "pushed": "images_buttons/button_pushed_continue.png",
+        "unpushed": "images_buttons/button_unpushed_continue.png",
+        "coordinates": [[197, 803], [300, -50]],
+        "post_effect": [0, 2, -3],
+        "game_mode": -1
+    }
+]
