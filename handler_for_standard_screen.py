@@ -64,6 +64,7 @@ def handler_for_selection_ships(flag_quit, screen_id, player, game_mode, event, 
     
     buttons with special properties are programmed for its negative values, 
     and not just switching the screen, for example, the clear button - clears the screen of all ships
+
     == -1 - the auto placement button is programmed to this value
     == -2 - the field clear button is programmed for this value
     == -3 -  the continue button is programmed as to activate it, you need to arrange all the ships
@@ -203,3 +204,14 @@ def handler_for_final_screen(game_mode, player, screen_id, event, old_screen_id)
         flag_quit, screen_id, ship_choice, game_mode = dispatcher_on_buttons_in_screen(screen_id, game_mode,
                                                                                        event, old_screen_id)
         return flag_quit, screen_id, ship_choice, game_mode
+
+    else:
+        if not player:
+            name_winner = 'Admiral_Oscar'
+        else:
+            name_winner = 'Player'
+        text(435, 275, name_winner, BLACK, 48)
+        flag_quit, screen_id, ship_choice, game_mode = dispatcher_on_buttons_in_screen(screen_id, game_mode,
+                                                                                       event, old_screen_id)
+        return flag_quit, screen_id, ship_choice, game_mode
+
