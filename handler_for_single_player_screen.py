@@ -116,12 +116,9 @@ def handler_for_attack_ai_in_single_player(flag_quit, screen_id, ship_choice, ga
             there is a break
             """
 
-            print(stage_attack_sam)
-
             if not AI.question_about_destroyed_ship():
                 AI.diagonal_death_zone()
                 stage_attack_sam = 2
-                print('*')
 
     if stage_attack_sam == 2:
         if flag_move:
@@ -141,7 +138,6 @@ def handler_for_attack_ai_in_single_player(flag_quit, screen_id, ship_choice, ga
             if not AI.question_about_destroyed_ship():
                 AI.angle_determinant()
                 AI.diagonal_death_zone()
-                print('/')
                 stage_attack_sam = 3
             else:
                 stage_attack_sam = 1
@@ -164,7 +160,6 @@ def handler_for_attack_ai_in_single_player(flag_quit, screen_id, ship_choice, ga
             there is a break
             """
             if AI.question_about_destroyed_ship():
-                print('*+*+*+*++**++**++*')
                 stage_attack_sam = 1
 
     if flag_hit == 2:
@@ -188,3 +183,4 @@ def handler_for_attack_ai_in_single_player(flag_quit, screen_id, ship_choice, ga
         static_background(screen_id)
 
     return flag_quit, screen_id, ship_choice, game_mode, player, flag_move, event, coord_of_map, stage_attack_sam
+
