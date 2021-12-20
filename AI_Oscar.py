@@ -53,7 +53,6 @@ class AiSam:
         the first type of attack is an attack at a random point on the field,
         which is selected from an array of cells that have not been destroyed
         """
-        print('//////////////')
         x, y = rd.choice(self.not_destroyed_cells_in_battlefield)
         self.not_destroyed_cells_in_battlefield, self.old_number_not_destroyed_cells, self.coordinates_in_process[0], \
         self.coordinates_in_process[1] = shot(self.not_destroyed_cells_in_battlefield,
@@ -75,19 +74,16 @@ class AiSam:
             * + *
               *
         """
-        print('**********')
         direction = [(1, 0), (-1, 0), (0, 1), (0, -1)]
         candidate_for_destruction = function_election_candidate_for_shot(self.not_destroyed_cells_in_battlefield,
                                                                          direction, self.coordinates_in_process, 0)
         x, y = rd.choice(candidate_for_destruction)
         self.not_destroyed_cells_in_battlefield, self.old_number_not_destroyed_cells, self.x, self.y = shot(
             self.not_destroyed_cells_in_battlefield, self.old_number_not_destroyed_cells, (x, y))
-        print(x, y)
         return x, y
 
     def third_type_of_attack(self):
         direction = [(-1, 0), (1, 0)]
-        print('+++++++++++++')
         candidate_for_destruction = function_election_candidate_for_shot(self.not_destroyed_cells_in_battlefield,
                                                                          direction, self.coordinates_in_process,
                                                                          self.flag_angle)
@@ -105,7 +101,6 @@ class AiSam:
             self.not_destroyed_cells_in_battlefield, self.old_number_not_destroyed_cells, self.x, self.y = shot(
                 self.not_destroyed_cells_in_battlefield, self.old_number_not_destroyed_cells, (x, y))
 
-        print(x, y)
         return x, y
 
     def diagonal_death_zone(self):
