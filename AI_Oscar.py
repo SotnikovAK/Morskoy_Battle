@@ -120,7 +120,6 @@ class AiSam:
             -   -
 
         """
-        print('==============')
         direction = [(-1, -1), (-1, 1), (1, 1), (1, -1)]
         for i in range(len(direction)):
             x, y = self.coordinates_in_process[0] + direction[i][0], self.coordinates_in_process[1] + direction[i][1]
@@ -142,7 +141,6 @@ class AiSam:
             self.flag_angle = 0
         else:
             self.flag_angle = 1
-        print('+-+-+-+-', self.flag_angle)
 
     def question_about_destroyed_ship(self):
         """
