@@ -82,7 +82,6 @@ class AiSam:
         return x, y
 
     def third_type_of_attack(self):
-        x, y = -1, -1
         """
         here is looking for a cell that can belong to an aircraft carrier or battleship based on the 2nd type of attack
         from the 2nd we know two cells of the ship, here the third is selected
@@ -289,5 +288,3 @@ class AiSam:
 Admiral entered the game
 """
 AI = AiSam()
-
-
