@@ -104,8 +104,8 @@ def handler_for_attack_ai_in_single_player(flag_quit, screen_id, ship_choice, ga
     
     so destroyers are destroyed at stage 1
     so cruisers are destroyed in stage 2
-    so aircraft carriers are destroyed in stage 3
-    to destroy battleships you need stages 4,5,6
+    so aircraft carriers are destroyed in stage 3,4
+    to destroy battleships you need stages 5,6
     
     """
     if stage_attack_sam == 1:
