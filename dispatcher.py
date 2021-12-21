@@ -94,8 +94,8 @@ class DispatcherGame:
                 """
                 self.flag_quit, self.screen_id, self.ship_choice, self.game_mode, self.flag_init_ships, \
                     self.flag_move, self.player, self.coord_of_map, self.old_screen_id = handler_for_selection_ships(
-                        self.screen_id, self.player, self.game_mode, event, self.ship_choice, self.flag_move,
-                        self.flag_init_ships, self.coord_of_map)
+                        self.flag_quit, self.screen_id, self.player, self.game_mode, event, self.ship_choice,
+                        self.flag_move, self.flag_init_ships, self.coord_of_map)
 
             elif self.screen_id == 3:
                 """
